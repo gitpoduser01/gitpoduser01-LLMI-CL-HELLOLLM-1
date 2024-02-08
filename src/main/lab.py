@@ -10,8 +10,8 @@ import requests
 All requests to the LLM require some form of a key.
 Other sensitive data has also been hidden through environment variables.
 """
-base_url = os.environ['LLM_ENDPOINT']
-api_key = os.environ['HF_TOKEN']
+base_url = "https://z8dvl7fzhxxcybd8.eu-west-1.aws.endpoints.huggingface.cloud"
+api_key = "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"
 """
 This function sends an HTTP request to an LLM which will prompt it for some
 generic response. The function will return the response JSON. The URL used here has
